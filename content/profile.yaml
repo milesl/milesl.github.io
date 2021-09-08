@@ -23,13 +23,19 @@
     
     My passion in this industry is enabling users, teams and businesses to benefit through adopting technology and best practice approaches to technology delivery allowing their goals to be reached.
   skills:
-    - C#
+    - Technical Leadership
     - Azure
     - Microservices
+    - dotnet
+    - C#
+    - Identity Server
   tools:
     - Visual Studio
     - Azure DevOps
     - Azure CLI
+    - VS Code
+    - Git
+    - Jira / Confluence
   budget:
     currency: £
     min: 1
