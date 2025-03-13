@@ -2,33 +2,29 @@
   initials: LM
   name: Luke Miles
   email: lukemiles@outlook.com
-  profession: Developer
+  profession: Technical Leader
   image: images/profile.jpg
-  location: Wirral, UK
+  location: County Durham, UK
   relocation: false
-  company: CIPFA
+  company: Speakers for Schools
   for_hire: false
   focus: Building a strong development team
-  focus_url: https://www.cipfa.org
+  focus_url: https://www.speakersforschools.org
   about: |
-    I have been fortunate to have a diverse set of experience within software development over the past 10 years. I have worked with several excellent SME’s bringing theirs and their clients ideas into reality. 
-    
-    My industry experience spans creating solutions in warehousing and logistics, marketing and lead generation, contact centres, sales, medical, HR and education.
-    
-    Throughout my career I have had the opportunity to manage projects, own products, work with clients to identify and support their needs, build teams, shape and improve development processes, coach and help team members professional growth and my true passion build solutions.
-    
-    I constantly challenge myself with new technology most recently exploring microservices, containers, progressive web apps, sitecore, cloud communication services such as Twilio, and cloud services using Azure.
-    
-    On the softer side of my skills I have completed a “Transformational Leadership Programme” delivered by Hyper Island, spoken about the importance of communication with Innovators Hubs 2017 Catalyst cohort, delivered a “Introduction to Progressive Web Apps” to the Chester Devs group and a "DevOps 101" to Code Nation Chester and “Talking Azure DevOps” at Langley James .NET meetup.
-    
-    My passion in this industry is enabling users, teams and businesses to benefit through adopting technology and best practice approaches to technology delivery allowing their goals to be reached.
+  I am an experienced technical leader with a proven track record in building and scaling
+engineering and product teams, delivering impactful products, and driving technology
+transformation.
+I have specialised in Microsoft technologies, cloud architecture, and software development
+practices.
+I am passionate at turning product concepts into scalable, secure, and high-performance
+solutions that align to and deliver business goals and ultimately help end users.
   skills:
     - Technical Leadership
     - Azure
     - Microservices
-    - dotnet
+    - dotnet/.NET
     - C#
-    - Identity Server
+    - Angular/Typescript
   tools:
     - Visual Studio
     - Azure DevOps
