@@ -8,14 +8,14 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.mjs
-    siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteTitle: `Luke Miles Technology Consulting`,
+    siteTitleAlt: `Luke Miles Technology Consulting`,
+    siteHeadline: `Luke Miles Technology Consulting`,
+    siteUrl: `https://milesl.github.io`,
+    siteDescription: `Helping organisations achieve their business goals with scalable and secure technology solutions.`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `Luke Miles`,
   },
   trailingSlash: `always`,
   plugins: [
@@ -25,23 +25,31 @@ const config: GatsbyConfig = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
-          },
-          {
             title: `About`,
             slug: `/about`,
           },
+          {
+            title: `Services`,
+            slug: `/services`,
+          },
+          {
+            title: `Experience`,
+            slug: `/experience`,
+          },
+          {
+            title: `Contact`,
+            slug: `/contact`,
+          },
+          {
+            title: `Blog`,
+            slug: `/blog`,
+          }
         ],
         externalLinks: [
           {
-            name: `Bluesky`,
-            url: `https://bsky.app/profile/lekoarts.de`,
-          },
-          {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
-          },
+            name: `LinkedIn`,
+            url: `https://linkedin.com/in/luke-miles-dev`,
+          }
         ],
       },
     },
@@ -54,9 +62,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Luke Miles Technology Consulting`,
+        short_name: `LMTC`,
+        description: `Helping organisations achieve their business goals with scalable and secure technology solutions.`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
@@ -123,7 +131,7 @@ const config: GatsbyConfig = {
   }
 }`,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Luke Miles Technology Consulting`,
           },
         ],
       },
