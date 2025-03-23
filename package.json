@@ -1,26 +1,36 @@
 {
-  "name": "lukemiles-gatsby-site",
-  "version": "1.0.0",
-  "description": "My site built with gatsbu",
-  "main": "index.js",
+  "private": true,
+  "name": "minimal-blog",
+  "description": "Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.",
+  "version": "1.3.17",
+  "author": "LekoArts",
+  "license": "0BSD",
+  "starter-name": "gatsby-starter-minimal-blog",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
+    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/milesl/lukemiles-gatsby-site.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/milesl/lukemiles-gatsby-site/issues"
-  },
-  "homepage": "https://github.com/milesl/lukemiles-gatsby-site#readme",
   "dependencies": {
-    "@wkocjan/gatsby-theme-intro": "^2.0.1",
-    "gatsby": "5.14.1",
-    "gh-pages": "6.3.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@lekoarts/gatsby-theme-minimal-blog": "^6.2.4",
+    "gatsby": "^5.14.1",
+    "gatsby-plugin-feed": "^5.14.0",
+    "gatsby-plugin-manifest": "^5.14.0",
+    "gatsby-plugin-sitemap": "^6.14.0",
+    "gatsby-plugin-webpack-statoscope": "^1.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.16",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "ajv": "^8.17.1",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.7.3"
   }
 }
