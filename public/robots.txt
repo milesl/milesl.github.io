@@ -1,3 +1,0 @@
-User-agent: *
-
-sitemap: https://milesl.github.io/sitemap-index.xml
