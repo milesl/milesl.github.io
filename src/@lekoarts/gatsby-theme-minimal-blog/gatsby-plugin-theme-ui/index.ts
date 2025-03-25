@@ -10,12 +10,18 @@ declare module "theme-ui" {
 
 const mileslTheme = merge(theme, {
   colors: {
-    text: "#2D2D2D",
-    background: "#F5F5DC",
-    primary: "#2E7D32",
-    secondary: "#4CAF50",
-    accent: "#0288D1",
-    muted: "#BCAAA4",  // Soft brown for subtle elements
+    // Deep midnight blue for primary text - strong contrast on light backgrounds
+    text: "#0D1321", 
+    // Soft, pale sky blue for background - provides a light, airy feel
+    background: "#E6F2FF", 
+    // Deep space blue - primary color for key elements
+    primary: "#1A4B84", 
+    // Nebula-inspired blue-green for secondary elements
+    secondary: "#2A6F97", 
+    // Bright cosmic blue for accent, ensuring good contrast
+    accent: "#4BA3C3", 
+    // Soft, muted gray with a hint of blue - for subtle elements
+    muted: "#7E8CAA",
   }
 });
 
