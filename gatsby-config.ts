@@ -48,7 +48,7 @@ const config: GatsbyConfig = {
         externalLinks: [
           {
             name: `LinkedIn`,
-            url: `https://linkedin.com/in/luke-miles-dev`,
+            url: `https://www.linkedin.com/in/milesl-dev`,
           }
         ],
       },
